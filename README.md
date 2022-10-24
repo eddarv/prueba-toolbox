@@ -9,7 +9,7 @@ En este ejemplo vemos como implementar una **App fullstack** usando [React](http
 Descarga el repositorio:
 
 ```
-git clone git@github.com:eddarv/Toolbox-prueba.git
+git clone git@github.com:eddarv/prueba-toolbox.git
 ```
 
 Ingresa en la carpeta "frontend" desde la carpeta descargada e instala las dependencias del front-end:
