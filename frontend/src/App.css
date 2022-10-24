@@ -1,0 +1,139 @@
+/*global*/
+html,
+body {
+  box-sizing: border-box;
+  background-color: #FFF;
+  overflow-x: hidden;
+  font-size: 16px;
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+.root{
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.first_cont{
+  background-color: #FF5555;
+  color: #FFF;
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.second_cont{
+  margin-top: 0.5em;
+  background-color: #5555FF;
+  color: #FFF;
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.row_1{
+  background-color: #FFF;
+  color: #333333;
+}
+
+.row_2{
+  background-color: #EEE;
+  color: #333333;
+}
+
+.col{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lds_spinner {
+  color: white;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  justify-self: center;
+  align-self: center;
+}
+
+.lds_spinner div {
+  transform-origin: 40px 40px;
+  animation: lds_spinner 1.2s linear infinite;
+}
+.lds_spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: #000;
+}
+.lds_spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds_spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds_spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds_spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds_spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds_spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds_spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds_spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds_spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds_spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds_spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds_spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds_spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.select{
+  font-size: 24px;
+  height: 30%;
+  align-self: center;
+}
+

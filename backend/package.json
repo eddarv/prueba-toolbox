@@ -1,0 +1,26 @@
+{
+  "name": "pruebatoolbox",
+  "version": "0.0.1",
+  "description": "Prueba de programacion de toolbox",
+  "main": "server.js",
+  "scripts": {
+    "test": "npx mocha --timeout 15000",
+    "start": "node server.js",
+    "cicle": "nodemon server.js"
+  },
+  "author": "@eddarv",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mocha": "^10.1.0",
+    "node-abort-controller": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "standard": "^17.0.0"
+  }
+}
